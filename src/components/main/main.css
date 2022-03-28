@@ -1,0 +1,8 @@
+.main__container{
+    position: fixed;
+    top: 15%;
+    width: 85%;
+    height: 90vh;
+    margin-left: 18%;
+    color: #00000081;
+}
