@@ -7,7 +7,10 @@
     left: 0;
     width: 15%;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(52,126,244,0.8855917366946778) 48%, rgba(0,19,113,1) 100%);
+    background-image: url('../../assets/Fonndo-Eezy.jpg');
+    background-repeat: no-repeat;
+    background-position: center-bottom;
+    background-size: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: white;
@@ -26,6 +29,22 @@
 .sidebar__menu-buttons li{
     list-style: none;
     margin: 20px;
+}
+.sidebar__element{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.sidebar__element > .icon{
+    grid-column: 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+    margin: auto;
+}
+.sidebar__element > .text{
+    grid-column: 2;
+    margin-left: 8%;
+    margin-top: 7%;
 }
 .sidebar__plan{
     grid-row: 3;
@@ -48,10 +67,6 @@
     padding: 10px;
     margin: 10% 20%;
 }
-.sidebar__plan-container li{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
 .sidebar__logout{
     grid-row: 5;
-}
+}   

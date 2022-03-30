@@ -1,0 +1,22 @@
+.createnew___container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #00aeff;
+    margin: auto;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.createnew__icon{
+    color: #1857BA;
+}
+.createnew__icon svg{
+    font-size: 90px;
+}
+.createnew__text{
+    font-size: 21px;
+    color: #1857BA;
+    font-weight: 600;
+}

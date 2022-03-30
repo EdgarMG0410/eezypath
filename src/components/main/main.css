@@ -6,3 +6,17 @@
     margin-left: 18%;
     color: #00000081;
 }
+.main__title{
+    border: 1px solid black;
+    margin: auto;
+    padding: 4%;
+    border-radius: 30px;
+    margin-right: 10%;
+}
+.main__box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, 400px);
+    margin: 5% 10% 5% 0;
+    gap: 5%;
+}

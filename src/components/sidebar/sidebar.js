@@ -1,8 +1,6 @@
 import React from "react";
 import "./sidebar.css";
 import logo from "../../assets/logo.png"
-import HomeIcon from '@mui/icons-material/Home';
-import DeleteIcon from '@mui/icons-material/Delete';
 import Home from "@mui/icons-material/Home";
 
 
@@ -17,13 +15,32 @@ function SideBar() {
             <div className="sidebar__menu">
                 <h3>Menú</h3>
                 <div className="sidebar__menu-buttons">
-                    <ol>
-                        <li>
-                            <Home/>Inicio
+                    <ul>
+                        <li className="sidebar__element">
+                            <div className="icon">
+                                <Home/> 
+                            </div>
+                            <div className="text">
+                                Inicio
+                            </div>
                         </li>
-                        <li>Mis Proyectos</li>
-                        <li>Plantillas</li>
-                    </ol>
+                        <li className="sidebar__element">
+                            <div className="icon">
+                                <Home/> 
+                            </div>
+                            <div className="text">
+                                Mis Proyectos
+                            </div>
+                        </li>
+                        <li className="sidebar__element">
+                            <div className="icon">
+                                <Home/> 
+                            </div>
+                            <div className="text">
+                            Plantillas
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div className="sidebar__plan">
