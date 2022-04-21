@@ -1,0 +1,23 @@
+.sidebar-collapse__container{
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+    margin-top: 0.5%;
+    width: 3%;
+    height: 92vh;
+    background-color: var(--fg__claro);
+}
+
+.sidebar-collapse__icon-container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+}
+.sidebar-collapse__icon-container .icon img{
+    margin: auto;
+    width: 100%;
+}
+.sidebar-collapse__icon-container .icon img:hover{
+    border-left: 8px solid var(--naranja__eezy);
+    cursor: pointer;
+}
