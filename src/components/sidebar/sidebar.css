@@ -1,6 +1,25 @@
-.sidebar-collapse__container{
-    margin-top: 0.5%;
-    width: 5%;
+.sidebar__container{
+    display: grid;
+    width: 12%;
     height: 92vh;
+    margin-top: .2%;
     background-color: var(--fg__claro);
+}
+.sidebar__icon-container{
+    grid-template-rows: repeat(3, 1fr);
+}
+.sidebar__icon-container .tile{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+    margin-bottom: 0;
+}
+.sidebar__icon-container  .tile img{
+    margin: 0;
+    width: 90%;
+}
+.sidebar__icon-container > .tile:hover{
+    border-left: 6px solid var(--naranja__eezy);
+    cursor: pointer;
+    background-color: var(--gris__eezy-claro);
 }

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <HeadBar/> 
-      <SideBar__Collapse/>
+      <SideBar/>
     </div>
   );
 }
