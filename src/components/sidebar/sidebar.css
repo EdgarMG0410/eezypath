@@ -1,7 +1,7 @@
 .sidebar__container{
     display: grid;
     width: 12%;
-    height: 92vh;
+    height: 72vh;
     margin-top: .2%;
     background-color: var(--fg__claro);
 }
