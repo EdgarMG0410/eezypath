@@ -2,10 +2,12 @@
     display: grid;
     grid-template-rows: repeat(5, 20%);
     width: 3%;
-    height: 73vh;
+    height: 93.5vh;
     background-color: var(--fg__claro);
     box-shadow: 9px 0px 14px 0px rgba(133,130,130,0.30);
     border: none;
+    margin-top: 5vh;
+    z-index: 1;
 }
 
 .sidebar-collapse__icon-container{

@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <HeadBar/>
       <div className='App__container'>
-        <CategoryBox/>
         <SideBar__Collapse/>
+        <CategoryBox/>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 :root {
   --azul__eezy: #4F99DD;
   --azul-fuerte__eezy: #F4684A;
@@ -16,4 +18,5 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
