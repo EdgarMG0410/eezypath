@@ -1,11 +1,12 @@
 .sidebar__container{
     display: grid;
-    position: sticky;
-    z-index: 1;
+    position: absolute;
+    z-index: 0;
     width: 12%;
-    height: 72vh;
-    margin-top: 5.3vh;
+    height: 93vh;
+    margin-top: 7vh;
     background-color: var(--fg__claro);
+    box-shadow: 5px 0 5px -5px #333;
 }
 .sidebar__icon-container{
     grid-template-rows: repeat(3, 1fr);
