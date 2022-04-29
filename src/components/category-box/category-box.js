@@ -1,22 +1,22 @@
 import React from "react";
 import './category-box.css';
 import icono__eezy from '../../assets/icons/icono-eezy.svg';
-import migue from '../../assets/icons/MIGUE.png';
+import wave from '../../assets/imgs/wave.svg';
+
 
 function CategoryBox() {
     return (
-        <div className="cat__container">
+        <div className="box__category">
 
             <div className="icono">
-                <div className="container">
-                    
+                <div className="vert-container">
+                    <img src={wave}/>
                 </div>
             </div>
 
-  
-            <div className="cat__items">
-                <div className="cat__title">
-                    <h1>Construyamos un camino</h1>
+            <div className="box__items">
+                <div className="box__items-title">
+                    <h1>Elige tu camino...</h1>
                 </div>
                 <div className="items">
                     <button className="item">Presentaciones</button>

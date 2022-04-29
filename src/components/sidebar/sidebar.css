@@ -1,9 +1,9 @@
 .sidebar__container{
     display: grid;
-    position: absolute;
+    position: sticky;
     z-index: 1;
     width: 12%;
-    height: 92vh;
+    height: 72vh;
     margin-top: 5.3vh;
     background-color: var(--fg__claro);
 }

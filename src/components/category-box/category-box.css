@@ -1,40 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap');
-.cat__container{
+.box__category{
     display: grid;
+    position: absolute;
+    top: 7vh;
+    grid-row: 2;
     grid-template-columns: 1fr 4fr 1fr;
     width: 100%;
-    height: 20vh;
-    margin-top: 5vh;
+    height: 18vh;
     background-color: var(--fg__claro);
-    box-shadow: -1px 6px 14px 0px rgba(133,130,130,0.30);
+    box-shadow: 0 5px 5px -5px #333;
 }
 
-.cat__items{
+.box__items{
     display: grid;
+    grid-column: 2;
     grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 100%;
 }
 
-.cat__title{
+.box__items-title{
     display: grid;
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
 }
-.cat__title h1{
+.box__items-title h1{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 65px;
+    font-style: italic;
+    font-size: 48px;
     color: var(--gris__eezy);
     z-index: 1;
     margin: 0;
 }
-.cat__items .items {
+.box__items .items {
     display: grid;
-    grid-row: 2;
     grid-template-columns: repeat(4, 1fr);
 }
-.cat__items .items button{
+.box__items .items button{
     border: none;
     background-color: transparent;
     font-size: 20px;
@@ -42,22 +46,22 @@
     padding: 0;
     color: var(--gris__eezy);
 }
-.cat__items .items button:hover{
+.box__items .items button:hover{
     border-bottom: 5px solid var(--naranja__eezy) !important;
     cursor: pointer;
     font-size: 24px;
 }
-.icono{
+.box__category .icono{
     display: grid;
     place-items: center;
-}     
-.icono .container{
+}
+.box__category .icono .container{
     width: 350px;
     height: 350px;
-    animation: rotation 6s infinite linear;
-    margin-top: -60%;
+    animation: rotation 15s infinite linear;
+    margin-top: -65%;
     margin-right: 30%;
-}  
+}
 @keyframes rotation {
     from {
       transform: rotate(359deg);
@@ -65,4 +69,11 @@
     to {
       transform: rotate(0deg);
     }
-  } 
+  }
+.icono .vert-container{
+    position: fixed;
+    top: -1.78%;
+    width: 25%;
+    height: 30%;
+    transform: rotate(-17deg);
+}

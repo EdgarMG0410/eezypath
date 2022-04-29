@@ -4,7 +4,7 @@ import home from '../../assets/icons/negro/home.png';
 import templates from '../../assets/icons/negro/plantillas.png';
 import paths from '../../assets/icons/negro/carpeta.png';
 
-function SideBar__Collapse() {
+function SideBarCollapse() {
     return (
         <div className="sidebar-collapse__container">
             <div className="sidebar-collapse__icon-container">
@@ -22,4 +22,4 @@ function SideBar__Collapse() {
     );
 }
 
-export {SideBar__Collapse };
+export {SideBarCollapse };
